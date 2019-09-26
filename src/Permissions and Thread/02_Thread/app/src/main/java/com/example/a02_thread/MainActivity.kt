@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
                 var now = System.currentTimeMillis()
                 Log.d("test1", "쓰레드 : ${now}")
 
-                // 화면에 처리하기 (오레오 버전 이상만 가능)
+                // 화면에 처리하기 (오레오 버전(8.1) 이상만 가능)
                 textView2.text = "쓰레드 : ${now}"
             }
         }
