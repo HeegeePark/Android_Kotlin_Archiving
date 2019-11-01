@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="이름을 입력해주세요"
+    />
+    <EditText
+            android:id="@+id/etAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="숫자로만 나이를 입력해주세요"
+    />
+    <EditText
+            android:id="@+id/etMajor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="전공을 입력해주세요"
+    />
+
+</LinearLayout>
